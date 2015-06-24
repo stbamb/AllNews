@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/refresh_option"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="ifRoom"
+        android:title="Refresh"/>
+
+    <item
+        android:id="@+id/sort_option"
+        android:icon="@drawable/ic_action_sort_by_size"
+        android:showAsAction="always|withText"
+        android:title="Ordenar contenido"/>
+
+    <item
+        android:id="@+id/add_option"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        android:title="Add"/>
+
+</menu>
